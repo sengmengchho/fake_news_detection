@@ -1,0 +1,34 @@
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+.env.*
+
+# Logs and runtime files
+*.log
+logs/
+src/Notebook/logs/
+
+# ML outputs/artifacts (generated)
+src/Notebook/bert_out/
+src/Notebook/manual_testing.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Optional: ignore trained model binaries if they are generated locally
+# (uncomment if you don't want to version model files)
+# models/*.h5
